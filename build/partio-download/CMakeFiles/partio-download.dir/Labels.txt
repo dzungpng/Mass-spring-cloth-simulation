@@ -1,0 +1,14 @@
+# Target labels
+ partio-download
+# Source files and their labels
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/CMakeFiles/partio-download
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/CMakeFiles/partio-download.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/CMakeFiles/partio-download-complete.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-install.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-mkdir.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-download.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-patch.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-configure.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-build.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-test.rule
+/home/dzung/Desktop/cis563-2019-assignment/build/partio-download/partio-download-prefix/src/partio-download-stamp/partio-download-skip-update.rule
