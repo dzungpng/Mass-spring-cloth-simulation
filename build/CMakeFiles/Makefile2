@@ -119,9 +119,9 @@ clean: CMakeFiles/SuiteSparse.dir/clean
 # Target rules for target ../Deps/osqp/build/CMakeFiles/osqp.dir
 
 # All Build rule for target.
-../Deps/osqp/build/CMakeFiles/osqp.dir/all: ../Deps/osqp/build/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlobject.dir/all
 ../Deps/osqp/build/CMakeFiles/osqp.dir/all: ../Deps/osqp/build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/all
 ../Deps/osqp/build/CMakeFiles/osqp.dir/all: ../Deps/osqp/build/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/all
+../Deps/osqp/build/CMakeFiles/osqp.dir/all: ../Deps/osqp/build/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlobject.dir/all
 	$(MAKE) -f ../Deps/osqp/build/CMakeFiles/osqp.dir/build.make ../Deps/osqp/build/CMakeFiles/osqp.dir/depend
 	$(MAKE) -f ../Deps/osqp/build/CMakeFiles/osqp.dir/build.make ../Deps/osqp/build/CMakeFiles/osqp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53,54,55 "Built target osqp"
@@ -158,9 +158,9 @@ clean: ../Deps/osqp/build/CMakeFiles/osqp.dir/clean
 # Target rules for target ../Deps/osqp/build/CMakeFiles/osqpstatic.dir
 
 # All Build rule for target.
-../Deps/osqp/build/CMakeFiles/osqpstatic.dir/all: ../Deps/osqp/build/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlobject.dir/all
 ../Deps/osqp/build/CMakeFiles/osqpstatic.dir/all: ../Deps/osqp/build/lin_sys/direct/CMakeFiles/linsys_pardiso.dir/all
 ../Deps/osqp/build/CMakeFiles/osqpstatic.dir/all: ../Deps/osqp/build/lin_sys/direct/qdldl/CMakeFiles/linsys_qdldl.dir/all
+../Deps/osqp/build/CMakeFiles/osqpstatic.dir/all: ../Deps/osqp/build/lin_sys/direct/qdldl/qdldl_sources/CMakeFiles/qdldlobject.dir/all
 	$(MAKE) -f ../Deps/osqp/build/CMakeFiles/osqpstatic.dir/build.make ../Deps/osqp/build/CMakeFiles/osqpstatic.dir/depend
 	$(MAKE) -f ../Deps/osqp/build/CMakeFiles/osqpstatic.dir/build.make ../Deps/osqp/build/CMakeFiles/osqpstatic.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target osqpstatic"
