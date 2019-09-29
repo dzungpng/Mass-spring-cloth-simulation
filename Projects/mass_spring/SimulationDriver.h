@@ -55,19 +55,20 @@ public:
     {
         int N_points = ms.x.size();
         int N_dof = dim*N_points;
-	std::vector<TV> f_spring;
+	    std::vector<TV> f_spring;
         ms.evaluateSpringForces(f_spring);
-	std::vector<TV> f_damping;
-	ms.evaluateDampingForces(f_damping);
+	    std::vector<TV> f_damping;
+	    ms.evaluateDampingForces(f_damping);
 	
-	for(int p=0; p<N_points; p++){
+        for(int p=0; p<N_points; p++){
             if(ms.node_is_fixed[p]){
-	      ms.v[p] = TV::Zero();
+                ms.v[p] = TV::Zero();
             }
-	    else{
-	      ms.v[p] += ((f_spring[p]+f_damping[p])/ms.m[p]+gravity)*dt;
-	      ms.x[p] += ms.v[p]*dt;
-	    }
+            else
+            {
+                ms.v[p] += ((f_spring[p]+f_damping[p])/ms.m[p]+gravity)*dt;
+                ms.x[p] += ms.v[p]*dt;
+            }
         }
     }
 

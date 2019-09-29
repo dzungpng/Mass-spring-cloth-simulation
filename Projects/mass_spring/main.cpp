@@ -30,6 +30,8 @@ int main(int argc, char* argv[])
     std::vector<Eigen::Matrix<int,2,1> > segments;
     std::vector<T> rest_length;
 
+    T density = 7.86;
+
     int N = 64;
     int N_points = N*N;
     T dx = (T)1/(N-1);
@@ -56,15 +58,21 @@ int main(int argc, char* argv[])
 //    for(int i=(N-1)*N; i<N_points; i++)
 //        node_is_fixed[i] = true;
 
-
     // structure
     for(int i=0; i<N-1; i++){
         for(int j=0; j<N; j++){
             Eigen::Matrix<int,2,1> seg;
             int p = i*N+j, q=(i+1)*N+j;
             seg << p,q;
+            
             segments.push_back(seg);
-            rest_length.push_back((x[p]-x[q]).norm());
+
+            T length = (x[p]-x[q]).norm();
+            rest_length.push_back(length);
+
+            T mass = density * length/2;
+            m[p] += mass;
+            m[q] += mass;
         }
     }
     for(int i=0; i<N; i++){
@@ -72,8 +80,15 @@ int main(int argc, char* argv[])
             Eigen::Matrix<int,2,1> seg;
             int p = i*N+j, q=i*N+j+1;
             seg << p,q;
+
             segments.push_back(seg);
-            rest_length.push_back((x[p]-x[q]).norm());
+
+            T length = (x[p]-x[q]).norm();
+            rest_length.push_back(length);
+
+            T mass = density * length/2;
+            m[p] += mass;
+            m[q] += mass;
         }
     }
 
@@ -83,8 +98,15 @@ int main(int argc, char* argv[])
             Eigen::Matrix<int,2,1> seg;
             int p = i*N+j, q=(i+1)*N+j+1;
             seg << p,q;
+
             segments.push_back(seg);
-            rest_length.push_back((x[p]-x[q]).norm());
+
+            T length = (x[p]-x[q]).norm();
+            rest_length.push_back(length);
+
+            T mass = density * length/2;
+            m[p] += mass;
+            m[q] += mass;
         }
     }
     for(int i=0; i<N-1; i++){
@@ -92,8 +114,15 @@ int main(int argc, char* argv[])
             Eigen::Matrix<int,2,1> seg;
             int p = (i+1)*N+j, q=i*N+j+1;
             seg << p,q;
+
             segments.push_back(seg);
-            rest_length.push_back((x[p]-x[q]).norm());
+
+            T length = (x[p]-x[q]).norm();
+            rest_length.push_back(length);
+
+            T mass = density * length/2;
+            m[p] += mass;
+            m[q] += mass;
         }
     }
 
@@ -103,8 +132,15 @@ int main(int argc, char* argv[])
             Eigen::Matrix<int,2,1> seg;
             int p = i*N+j, q=(i+2)*N+j;
             seg << p,q;
+
             segments.push_back(seg);
-            rest_length.push_back((x[p]-x[q]).norm());
+
+            T length = (x[p]-x[q]).norm();
+            rest_length.push_back(length);
+
+            T mass = density * length/2;
+            m[p] += mass;
+            m[q] += mass;
         }
     }
     for(int i=0; i<N; i++){
@@ -112,8 +148,15 @@ int main(int argc, char* argv[])
             Eigen::Matrix<int,2,1> seg;
             int p = i*N+j, q=i*N+j+2;
             seg << p,q;
+            
             segments.push_back(seg);
-            rest_length.push_back((x[p]-x[q]).norm());
+
+            T length = (x[p]-x[q]).norm();
+            rest_length.push_back(length);
+
+            T mass = density * length/2;
+            m[p] += mass;
+            m[q] += mass;
         }
     }
 

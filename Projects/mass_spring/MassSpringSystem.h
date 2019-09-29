@@ -26,11 +26,19 @@ public:
     {
         f.clear();
         f.resize(x.size(), TV::Zero());
-
-	///////////////////////////////////////////////
-	//  ASSIGNMENT ////////////////////////////////
-	//  Add you code to build f /////////////////// 
-	///////////////////////////////////////////////
+        
+        for (int i = 0; i < segments.size(); i++) {
+            int x1Idx = segments[i].row(0)(0);
+            int x2Idx = segments[i].row(1)(0);
+            TV x1 = x[x1Idx];
+            TV x2 = x[x2Idx];
+            T l = (x1 - x2).norm();
+            TV n12 = (x1 - x2) / l;
+            TV f1 = -youngs_modulus * (l/rest_length[i] - 1) * n12;
+            // std::cout << f1.col(0)(0) << ", " << f1.col(0)(1) << ", " << f1.col(0)(2) << "\n";
+            f[x1Idx] += f1;
+            f[x2Idx] += -f1; 
+        }
     }
 
     void evaluateDampingForces(std::vector<TV >& f)
@@ -38,10 +46,17 @@ public:
         f.clear();
         f.resize(x.size(), TV::Zero());
 
-	///////////////////////////////////////////////
-	//  ASSIGNMENT ////////////////////////////////
-	//  Add you code to build f /////////////////// 
-	///////////////////////////////////////////////
+        for (int i = 0; i < segments.size(); i++) {
+            int x1Idx = segments[i].row(0)(0);
+            int x2Idx = segments[i].row(1)(0);
+            TV x1 = x[x1Idx];
+            TV x2 = x[x2Idx];
+            T l = (x1 - x2).norm();
+            TV n12 = (x1 - x2) / l;
+            TV f1 = -damping_coeff * (n12 * n12.transpose()) * (v[x1Idx] - v[x2Idx]);
+            f[x1Idx] += f1;
+            f[x2Idx] += -f1; 
+        }
     }
 
     void dumpPoly(std::string filename)
