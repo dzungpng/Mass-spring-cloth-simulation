@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/igl_stb_image.cpp
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/igl_stb_image.cpp
 igl_stb_image.h
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/igl_stb_image.h
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/igl_stb_image.h
 stb_image.h
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/stb_image.h
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/stb_image.h
 stb_image_write.h
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/stb_image_write.h
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/stb_image_write.h
 
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/igl_stb_image.h
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/igl_stb_image.h
 igl_stb_image_export.h
 -
 
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/stb_image.h
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/stb_image.h
 stb_image.h
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/stb_image.h
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/stb_image.h
 stdio.h
 -
 stdarg.h
@@ -46,7 +46,7 @@ intrin.h
 arm_neon.h
 -
 
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/stb_image_write.h
+/home/dzung/Mass-spring/Deps/libigl/external/stb_image/stb_image_write.h
 stdio.h
 -
 stdarg.h

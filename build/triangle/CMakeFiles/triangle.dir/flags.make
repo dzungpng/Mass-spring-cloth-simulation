@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS = -O3 -DNDEBUG  
 
-C_DEFINES = -DANSI_DECLARATORS -DCISPBA_PLUGIN_DIR=\"/home/dzung/Desktop/cis563-2019-assignment/build/Plugins\" -DTRILIBRARY
+C_DEFINES = -DANSI_DECLARATORS -DCISPBA_PLUGIN_DIR=\"/home/dzung/Mass-spring/build/Plugins\" -DTRILIBRARY
 
 C_INCLUDES = 
 

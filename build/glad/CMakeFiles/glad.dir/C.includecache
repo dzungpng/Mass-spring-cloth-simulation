@@ -34,7 +34,7 @@ stdint.h
 inttypes.h
 -
 
-/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glad/src/glad.c
+/home/dzung/Mass-spring/Deps/libigl/external/glad/src/glad.c
 stdio.h
 -
 stdlib.h

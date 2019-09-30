@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/stb_image/igl_stb_image.cpp" "/home/dzung/Desktop/cis563-2019-assignment/build/stb_image/CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o"
+  "/home/dzung/Mass-spring/Deps/libigl/external/stb_image/igl_stb_image.cpp" "/home/dzung/Mass-spring/build/stb_image/CMakeFiles/igl_stb_image.dir/igl_stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "CISPBA_PLUGIN_DIR=\"/home/dzung/Desktop/cis563-2019-assignment/build/Plugins\""
+  "CISPBA_PLUGIN_DIR=\"/home/dzung/Mass-spring/build/Plugins\""
   )
 
 # The include file search paths:

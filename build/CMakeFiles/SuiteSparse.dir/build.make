@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dzung/Desktop/cis563-2019-assignment
+CMAKE_SOURCE_DIR = /home/dzung/Mass-spring
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dzung/Desktop/cis563-2019-assignment/build
+CMAKE_BINARY_DIR = /home/dzung/Mass-spring/build
 
 # Utility rule file for SuiteSparse.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dzung/Desktop/cis563-2019-assignment/build
 include CMakeFiles/SuiteSparse.dir/progress.make
 
 CMakeFiles/SuiteSparse:
-	cd /home/dzung/Desktop/cis563-2019-assignment/Deps/SuiteSparse && make library -j 8
+	cd /home/dzung/Mass-spring/Deps/SuiteSparse && make library -j 8
 
 SuiteSparse: CMakeFiles/SuiteSparse
 SuiteSparse: CMakeFiles/SuiteSparse.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/SuiteSparse.dir/clean:
 .PHONY : CMakeFiles/SuiteSparse.dir/clean
 
 CMakeFiles/SuiteSparse.dir/depend:
-	cd /home/dzung/Desktop/cis563-2019-assignment/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dzung/Desktop/cis563-2019-assignment /home/dzung/Desktop/cis563-2019-assignment /home/dzung/Desktop/cis563-2019-assignment/build /home/dzung/Desktop/cis563-2019-assignment/build /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/SuiteSparse.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dzung/Mass-spring/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dzung/Mass-spring /home/dzung/Mass-spring /home/dzung/Mass-spring/build /home/dzung/Mass-spring/build /home/dzung/Mass-spring/build/CMakeFiles/SuiteSparse.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SuiteSparse.dir/depend
 

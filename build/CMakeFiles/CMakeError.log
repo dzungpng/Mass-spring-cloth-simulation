@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb2ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb2ed.dir/build.make CMakeFiles/cmTC_cb2ed.dir/build
-make[1]: Entering directory '/home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cb2ed.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno    -o CMakeFiles/cmTC_cb2ed.dir/CheckSymbolExists.cxx.o -c /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_cb2ed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb2ed.dir/link.txt --verbose=1
-/usr/bin/c++   -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno     -rdynamic CMakeFiles/cmTC_cb2ed.dir/CheckSymbolExists.cxx.o  -o cmTC_cb2ed 
-CMakeFiles/cmTC_cb2ed.dir/CheckSymbolExists.cxx.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_5f0eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f0eb.dir/build.make CMakeFiles/cmTC_5f0eb.dir/build
+make[1]: Entering directory '/home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f0eb.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno    -o CMakeFiles/cmTC_5f0eb.dir/CheckSymbolExists.cxx.o -c /home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_5f0eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f0eb.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno     -rdynamic CMakeFiles/cmTC_5f0eb.dir/CheckSymbolExists.cxx.o  -o cmTC_5f0eb 
+CMakeFiles/cmTC_5f0eb.dir/CheckSymbolExists.cxx.o: In function `main':
 CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_cb2ed.dir/build.make:97: recipe for target 'cmTC_cb2ed' failed
-make[1]: *** [cmTC_cb2ed] Error 1
-make[1]: Leaving directory '/home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cb2ed/fast' failed
-make: *** [cmTC_cb2ed/fast] Error 2
+CMakeFiles/cmTC_5f0eb.dir/build.make:97: recipe for target 'cmTC_5f0eb' failed
+make[1]: *** [cmTC_5f0eb] Error 1
+make[1]: Leaving directory '/home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f0eb/fast' failed
+make: *** [cmTC_5f0eb/fast] Error 2
 
-File /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_89334/fast"
-/usr/bin/make -f CMakeFiles/cmTC_89334.dir/build.make CMakeFiles/cmTC_89334.dir/build
-make[1]: Entering directory '/home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_89334.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_89334.dir/CheckFunctionExists.cxx.o -c /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_89334
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89334.dir/link.txt --verbose=1
-/usr/bin/c++   -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_89334.dir/CheckFunctionExists.cxx.o  -o cmTC_89334 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_1b079/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b079.dir/build.make CMakeFiles/cmTC_1b079.dir/build
+make[1]: Entering directory '/home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b079.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1b079.dir/CheckFunctionExists.cxx.o -c /home/dzung/Mass-spring/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_1b079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b079.dir/link.txt --verbose=1
+/usr/bin/c++   -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1b079.dir/CheckFunctionExists.cxx.o  -o cmTC_1b079 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_89334.dir/build.make:97: recipe for target 'cmTC_89334' failed
-make[1]: *** [cmTC_89334] Error 1
-make[1]: Leaving directory '/home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_89334/fast' failed
-make: *** [cmTC_89334/fast] Error 2
+CMakeFiles/cmTC_1b079.dir/build.make:97: recipe for target 'cmTC_1b079' failed
+make[1]: *** [cmTC_1b079] Error 1
+make[1]: Leaving directory '/home/dzung/Mass-spring/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1b079/fast' failed
+make: *** [cmTC_1b079/fast] Error 2
 
 

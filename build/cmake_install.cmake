@@ -1,4 +1,4 @@
-# Install script for directory: /home/dzung/Desktop/cis563-2019-assignment
+# Install script for directory: /home/dzung/Mass-spring
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,15 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dzung/Desktop/cis563-2019-assignment/Deps/osqp/build/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/glad/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/glfw/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/imgui/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/stb_image/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/tetgen/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/triangle/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/Deps/cmake_install.cmake")
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/Projects/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/Deps/osqp/build/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/glad/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/glfw/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/imgui/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/stb_image/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/tetgen/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/triangle/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/Deps/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/Projects/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dzung/Desktop/cis563-2019-assignment/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dzung/Mass-spring/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

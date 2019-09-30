@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/dzung/Desktop/cis563-2019-assignment
-# Build directory: /home/dzung/Desktop/cis563-2019-assignment/build
+# Source directory: /home/dzung/Mass-spring
+# Build directory: /home/dzung/Mass-spring/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

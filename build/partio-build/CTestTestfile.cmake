@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/dzung/Desktop/cis563-2019-assignment/build/partio-src
-# Build directory: /home/dzung/Desktop/cis563-2019-assignment/build/partio-build
+# Source directory: /home/dzung/Mass-spring/build/partio-src
+# Build directory: /home/dzung/Mass-spring/build/partio-build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dzung/Desktop/cis563-2019-assignment
+CMAKE_SOURCE_DIR = /home/dzung/Mass-spring
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dzung/Desktop/cis563-2019-assignment/build
+CMAKE_BINARY_DIR = /home/dzung/Mass-spring/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dzung/Mass-spring/build/CMakeFiles /home/dzung/Mass-spring/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dzung/Desktop/cis563-2019-assignment/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dzung/Mass-spring/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

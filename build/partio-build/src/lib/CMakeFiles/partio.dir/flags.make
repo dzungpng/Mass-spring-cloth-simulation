@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -fPIC -O3 -DNDEBUG   -Wextra -Wno-unused-parameter -std=gnu++1z
 
-CXX_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Desktop/cis563-2019-assignment/build/Plugins\"
+CXX_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Mass-spring/build/Plugins\"
 
-CXX_INCLUDES = -I/home/dzung/Desktop/cis563-2019-assignment/src/lib 
+CXX_INCLUDES = -I/home/dzung/Mass-spring/src/lib 
 

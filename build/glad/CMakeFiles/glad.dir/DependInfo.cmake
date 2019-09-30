@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glad/src/glad.c" "/home/dzung/Desktop/cis563-2019-assignment/build/glad/CMakeFiles/glad.dir/src/glad.c.o"
+  "/home/dzung/Mass-spring/Deps/libigl/external/glad/src/glad.c" "/home/dzung/Mass-spring/build/glad/CMakeFiles/glad.dir/src/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "CISPBA_PLUGIN_DIR=\"/home/dzung/Desktop/cis563-2019-assignment/build/Plugins\""
+  "CISPBA_PLUGIN_DIR=\"/home/dzung/Mass-spring/build/Plugins\""
   )
 
 # The include file search paths:

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -Wno-reorder -Wno-sign-compare -Wno-format-nonliteral -Wno-unused-but-set-variable -Wno-misleading-indentation -Wno-unused-variable -Wno-maybe-uninitialized -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno -O3 -DNDEBUG   -std=gnu++1z
 
-CXX_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Desktop/cis563-2019-assignment/build/Plugins\"
+CXX_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Mass-spring/build/Plugins\"
 
-CXX_INCLUDES = -I/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/imgui/imgui -I/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glad/include -I/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glfw/include 
+CXX_INCLUDES = -I/home/dzung/Mass-spring/Deps/libigl/external/imgui/imgui -I/home/dzung/Mass-spring/Deps/libigl/external/glad/include -I/home/dzung/Mass-spring/Deps/libigl/external/glfw/include 
 

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS = -O3 -DNDEBUG  
 
-C_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Desktop/cis563-2019-assignment/build/Plugins\"
+C_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Mass-spring/build/Plugins\"
 
-C_INCLUDES = -I/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glad/include 
+C_INCLUDES = -I/home/dzung/Mass-spring/Deps/libigl/external/glad/include 
 

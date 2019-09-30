@@ -1,8 +1,8 @@
-# Install script for directory: /home/dzung/Desktop/cis563-2019-assignment/build/partio-src
+# Install script for directory: /home/dzung/Mass-spring/build/partio-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dzung/Desktop/cis563-2019-assignment/Linux-5.0.0-x86_64")
+  set(CMAKE_INSTALL_PREFIX "/home/dzung/Mass-spring/Linux-5.0.0-x86_64")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dzung/Desktop/cis563-2019-assignment/build/partio-build/src/lib/cmake_install.cmake")
+  include("/home/dzung/Mass-spring/build/partio-build/src/lib/cmake_install.cmake")
 
 endif()
 

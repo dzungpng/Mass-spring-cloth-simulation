@@ -4,9 +4,9 @@
 # compile C with /usr/bin/cc
 C_FLAGS = -O3 -DNDEBUG -fPIC   -Wall
 
-C_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Desktop/cis563-2019-assignment/build/Plugins\" -D_GLFW_USE_CONFIG_H
+C_DEFINES = -DCISPBA_PLUGIN_DIR=\"/home/dzung/Mass-spring/build/Plugins\" -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glfw/include -I/home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glfw/src -I/home/dzung/Desktop/cis563-2019-assignment/build/glfw/src 
+C_INCLUDES = -I/home/dzung/Mass-spring/Deps/libigl/external/glfw/include -I/home/dzung/Mass-spring/Deps/libigl/external/glfw/src -I/home/dzung/Mass-spring/build/glfw/src 
 
 # Custom flags: glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

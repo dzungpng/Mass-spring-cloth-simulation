@@ -1,4 +1,4 @@
-# Install script for directory: /home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/triangle
+# Install script for directory: /home/dzung/Mass-spring/Deps/libigl/external/triangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

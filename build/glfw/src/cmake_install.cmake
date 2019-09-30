@@ -1,4 +1,4 @@
-# Install script for directory: /home/dzung/Desktop/cis563-2019-assignment/Deps/libigl/external/glfw/src
+# Install script for directory: /home/dzung/Mass-spring/Deps/libigl/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
