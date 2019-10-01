@@ -7,11 +7,11 @@
 SHELL := /bin/bash
 RM    := rm -rf
 MKDIR := mkdir -p
-BUILDROOT := /home/dzung/Desktop/cis563-2019-assignment/Build
+BUILDROOT := /home/dzung/Mass-spring/Build
 BUILDDEFAULT := Release
 RELATIVEPATH := Projects/mass_spring
 BUILDDIR = $(BUILDROOT)/$(BUILDDEFAULT)/$(RELATIVEPATH)
-ROOTDIR := /home/dzung/Desktop/cis563-2019-assignment
+ROOTDIR := /home/dzung/Mass-spring
 BUILDTYPES := Release MinSizeRel Debug Coverage RelWithDebInfo Quick
 OTHERGOALS := $(filter-out distclean $(BUILDTYPES),$(MAKECMDGOALS))
 

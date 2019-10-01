@@ -49,12 +49,12 @@ int main(int argc, char* argv[])
         }
     }
     node_is_fixed.resize(N_points,false);
-    for(int i=0; i<N; i++)
-        node_is_fixed[i] = true;
-//    node_is_fixed[0] = true;
-//    node_is_fixed[(N-1)*N] = true;
-//    node_is_fixed[N_points-1] = true;
-//    node_is_fixed[(N-1)] = true;
+    // for(int i=0; i<N; i++)
+    //     node_is_fixed[i] = true;
+    node_is_fixed[0] = true;
+    node_is_fixed[(N-1)*N] = true;
+    // node_is_fixed[N_points-1] = true;
+    // node_is_fixed[(N-1)] = true;
 //    for(int i=(N-1)*N; i<N_points; i++)
 //        node_is_fixed[i] = true;
 
@@ -70,9 +70,6 @@ int main(int argc, char* argv[])
             T length = (x[p]-x[q]).norm();
             rest_length.push_back(length);
 
-            T mass = density * length/2;
-            m[p] += mass;
-            m[q] += mass;
         }
     }
     for(int i=0; i<N; i++){
@@ -86,9 +83,6 @@ int main(int argc, char* argv[])
             T length = (x[p]-x[q]).norm();
             rest_length.push_back(length);
 
-            T mass = density * length/2;
-            m[p] += mass;
-            m[q] += mass;
         }
     }
 
@@ -103,10 +97,6 @@ int main(int argc, char* argv[])
 
             T length = (x[p]-x[q]).norm();
             rest_length.push_back(length);
-
-            T mass = density * length/2;
-            m[p] += mass;
-            m[q] += mass;
         }
     }
     for(int i=0; i<N-1; i++){
@@ -120,9 +110,6 @@ int main(int argc, char* argv[])
             T length = (x[p]-x[q]).norm();
             rest_length.push_back(length);
 
-            T mass = density * length/2;
-            m[p] += mass;
-            m[q] += mass;
         }
     }
 
@@ -137,12 +124,9 @@ int main(int argc, char* argv[])
 
             T length = (x[p]-x[q]).norm();
             rest_length.push_back(length);
-
-            T mass = density * length/2;
-            m[p] += mass;
-            m[q] += mass;
         }
     }
+
     for(int i=0; i<N; i++){
         for(int j=0; j<N-2; j++){
             Eigen::Matrix<int,2,1> seg;
@@ -154,9 +138,6 @@ int main(int argc, char* argv[])
             T length = (x[p]-x[q]).norm();
             rest_length.push_back(length);
 
-            T mass = density * length/2;
-            m[p] += mass;
-            m[q] += mass;
         }
     }
 

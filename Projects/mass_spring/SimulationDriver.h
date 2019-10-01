@@ -4,7 +4,7 @@
 #include <sys/stat.h>
 #include <iostream>
 #include "MassSpringSystem.h"
-
+#include "geometry/Geometry.h"
 
 template<class T, int dim>
 class SimulationDriver{
@@ -16,22 +16,19 @@ public:
     MassSpringSystem<T,dim> ms;
     T dt;
     TV gravity;
-
-    TV sphere_center;
-    T sphere_radius;
     T ground;
     T collision_stiffness;
+    Sphere sphere;
 
     SimulationDriver()
     : dt((T)0.00001) // 0.0015 for implicit
     {
         gravity.setZero();
         gravity(1) = -9.8;
+        collision_stiffness = 5e3;
 
-        sphere_center = TV::Ones()*0.5;
-        sphere_radius = 0.2;
+        sphere = Sphere(collision_stiffness, TV::Ones()*0.4, 0.25);
         ground = 0.1;
-        collision_stiffness = 1.1*0;
     }
 
     void run(const int max_frame)
@@ -41,7 +38,7 @@ public:
 
             int N_substeps = (int)(((T)1/24)/dt);
             for (int step = 1; step <= N_substeps; step++) {
-                std::cout << "Step " << step << std::endl;
+                // std::cout << "Step " << step << std::endl;
                 advanceOneStepExplicitIntegration();
             }
             mkdir("output/", 0777);
@@ -66,7 +63,8 @@ public:
             }
             else
             {
-                ms.v[p] += ((f_spring[p]+f_damping[p])/ms.m[p]+gravity)*dt;
+                TV f_collision = sphere.pointCollision(ms.x[p]);
+                ms.v[p] += ((f_spring[p]+f_damping[p] + f_collision)/ms.m[p]+gravity)*dt;
                 ms.x[p] += ms.v[p]*dt;
             }
         }
